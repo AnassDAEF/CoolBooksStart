@@ -42,7 +42,7 @@ export default {
       console.log(bookId);
     },
     goToBookDetails(bookId){
-      this.$router.push({name:'adminBooksAction', params:bookId});
+      this.$router.push({name:'adminBooksAction', params:{bookId}});
     },
     async fetchAllBooks(){
       let allBooks = await axios.get(BOOKS_API_ENDPOINT);
