@@ -21,13 +21,13 @@ export default {
   name: 'BooksAdmin',
   methods: {
     createBook(){
-      this.$router.push('adminBooksAction');
-    },
-    showBooksList(){
       this.$router.push({path: '/admin/books'});
     },
+    showBooksList(){
+      this.$router.push({path: '/admin/bookslist'});
+    },
     createGenre(){
-      this.$router.push('adminGenresAction')
+      this.$router.push({path: '/admin/genres'})
     }
   }
 }

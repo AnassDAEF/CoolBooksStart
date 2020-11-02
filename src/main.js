@@ -39,19 +39,16 @@ const routes = [
     component: () => import('./components/BooksAdmin.vue')
   },
   {
-    path: '/admin/books/:id', name:'adminBooksAction',
+    path: '/admin/books/:id?', name:'adminBooksAction',
     component: () => import('./components/BooksAdminBooksAction.vue')
   },
+
   {
-    path: '/admin/books', name:'adminBooksList',
+    path: '/admin/bookslist', name:'adminBooksList',
     component: () => import('./components/BooksAdminBooksList.vue')
   },
   {
-    path: '/admin/genres/:id', name:'adminGenresAction',
-    component: () => import('./components/BooksAdminGenresAction.vue')
-  },
-  {
-    path: '/admin/genres/', name:'adminGenresAction',
+    path: '/admin/genres/:id?', name:'adminGenresAction',
     component: () => import('./components/BooksAdminGenresAction.vue')
   },
   {

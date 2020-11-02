@@ -34,7 +34,7 @@ export default {
   }),
   methods:{
     deleteBook(result,bookId){
-      this.axios.delete(BOOKS_API_ENDPOINT + bookId).then(
+      this.axios.delete(`${BOOKS_API_ENDPOINT}${bookId}`).then(
         () =>{
           this.booksList.splice(bookId,1);
         }
