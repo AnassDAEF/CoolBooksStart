@@ -20,14 +20,14 @@ Vue.use(VueRouter)
 const routes = [
   {
       path: '/home', name:'home',
-      component: () => import('./components/BooksHome.vue')
+      component: () => import('./components/BooksList.vue')
   },
   {
     path: '/books', name:'books',
     component: () => import('./components/BooksList.vue')
   },
   {
-    path: '/books/:id', name:'booksDetails',
+    path: '/books/:bookId', name:'booksDetails',
     component: () => import('./components/BooksDetails.vue')
   },
   {

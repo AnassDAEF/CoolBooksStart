@@ -15,12 +15,12 @@
                         <ul class="list-unstyled">
 
                             <li>
-                                <a href="#">
+                                <a href="/books">
                                     <i class="fas fa-book"></i>
                                     <span class="bot-line"></span>Livres</a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/genres">
                                     <i class="fas fa-copy"></i>
                                     <span class="bot-line"></span>Genre</a>
                             </li>
@@ -58,7 +58,7 @@
 
 
 
-
+            <router-view></router-view>
 
 
             </section>
