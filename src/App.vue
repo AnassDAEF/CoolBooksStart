@@ -20,7 +20,7 @@
                                     <span class="bot-line"></span>Livres</a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/genres">
                                     <i class="fas fa-copy"></i>
                                     <span class="bot-line"></span>Genre</a>
                             </li>
