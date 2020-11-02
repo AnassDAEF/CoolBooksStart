@@ -25,9 +25,9 @@
                                     <span class="bot-line"></span>Genre</a>
                             </li>
                             <li>
-                                <a href="#">
+                                <router-link to="/admin">
                                     <i class="fas fa-cogs"></i>
-                                    <span class="bot-line"></span>Admin</a>
+                                    <span class="bot-line"></span>Admin</router-link>
                             </li>
                         </ul>
                     </div>
@@ -45,9 +45,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="title-4">Titre de la section
-                            </h1>
-                            <hr class="line-seprate">
+                            <router-view></router-view>
                         </div>
                     </div>
                 </div>

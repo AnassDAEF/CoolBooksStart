@@ -51,6 +51,10 @@ const routes = [
     component: () => import('./components/BooksAdminGenresAction.vue')
   },
   {
+    path: '/admin/genres/', name:'adminGenresAction',
+    component: () => import('./components/BooksAdminGenresAction.vue')
+  },
+  {
     path: '/admin/genres', name:'adminGenresList',
     component: () => import('./components/BooksAdminGenresList.vue')
   },
